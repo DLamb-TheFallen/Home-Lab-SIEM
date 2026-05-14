@@ -1,6 +1,8 @@
 # Home-Lab-SIEM
 A Home Lab focused on detecting threats and logging detections in ways that can be easily analyzed
 
+I will post more results based things at the top, down below will be a documentation of the whole process 
+
 
 
 
