@@ -24,3 +24,7 @@ bare format of where I will be keeping things. I also have a plan for the rest o
 - 5/17/2026 - Sunday - Get all the required Software running on the VMs to be ready to actually start the lab itself
 
 So, that is the plan and now that this github is here I will feel more motivated to get this project going
+
+
+## 5/15/2026 - Friday
+I downloaded vmware, the ubuntu server vm and the kali vm. As I am writing this the windows ISO file is downloading and then I will be done with the everything I planned on accomplishing today. 
