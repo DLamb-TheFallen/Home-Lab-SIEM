@@ -50,4 +50,26 @@ Entering Credentials brings us to the UI for the Wazuh dashboard
 
 As you can see there are currently no agents so my next step will be enrolling the Windoow's VM as an agent.
 
+## Enrolling a Wazuh Agent
+[I Downloaded the Windows Wazuh agent installer here](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html)
+
+[This was very useful for getting the authentication key for the agent](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/enrollment-methods/via-manager-API/requesting-the-key.html)
+
+I have the agent connected to the server and fully authenticated.
+<img width="318" height="282" alt="Wazuh Agent" src="https://github.com/user-attachments/assets/c36b54f8-d786-4692-8b57-221eff73324d" />
+
+I also now have the windows VM showing up in the dashboard and it is creating and sending its own logs to the server.
+
+<img width="1281" height="752" alt="Wazuh Dashboard with Agent" src="https://github.com/user-attachments/assets/5c02cde5-31bf-4174-8988-9e93de7aa4d8" />
+
+Now comes the fun part of actually attacking the VM to generate logs.
+
+## Attacking the VM
+This will be a little weird because the VM that I will be launching the machine from will also be the same as the machine I am accessing the dashboard from.
+
+
+
+
+
+
 
