@@ -21,7 +21,7 @@ For the VMs I have an Ubuntu server to act as the Wazuh (Open Source SIEM softwa
 (Note: I disabled the windows machine's firewall as it was blocking the VM's from ICMP messages from getting through)
 
 ## Setting up the Wazuh server
-I started by setting up the ubuntu server as a wazuh indexer. The indexer is the place where alerts generated from the server are stored. Since I am doing this all on one server/node the ubuntu server will be acting as the indexer and the server for this lab.
+I started by setting up the ubuntu server as a Wazuh indexer. The indexer is the place where alerts generated from the server are stored. Since I am doing this all on one server/node the ubuntu server will be acting as the indexer and the server for this lab.
 
 I followed this useful guide on Wazuh's website to set up the indexer:
 [Wazuh Indexer Setup](https://documentation.wazuh.com/current/installation-guide/wazuh-indexer/step-by-step.html)
@@ -42,5 +42,12 @@ I was having some issues with disk space on the on my VM, so that is something t
 
 From a browser on another computer going to the IP address at a specified port (which was setup during configuration) will bring you to the login page.
 
-<img width="1278" height="750" alt="Wazuh Login Page" src="https://github.com/user-attachments/assets/e58efee8-d0c8-4e19-a46d-a6bf30ba4095" />
+<img width="1278" height="750" alt="Wazuh Dashboard Login Page" src="https://github.com/user-attachments/assets/e58efee8-d0c8-4e19-a46d-a6bf30ba4095" />
+
+Entering Credentials brings us to the UI for the Wazuh dashboard
+
+<img width="1273" height="749" alt="Wazuh Dashboard Home Page" src="https://github.com/user-attachments/assets/af69606a-3358-4b9e-b35c-9c0115ee52fe" />
+
+As you can see there are currently no agents so my next step will be enrolling the Windoow's VM as an agent.
+
 
