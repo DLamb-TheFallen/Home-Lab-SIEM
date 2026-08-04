@@ -35,5 +35,12 @@ I then set up the server which will analyze information from the agents and repo
 I again used the useful step-by-step guide on Wazuh's website to set up the server:
 [Wazuh Server Setup](https://documentation.wazuh.com/current/installation-guide/wazuh-server/step-by-step.html)
 
+The final step for the server is to install the dashboard which acts like a web server which can be accessed from other computers to get a UI for the functions of overseeing the Wazuh SOC services.
+I was having some issues with disk space on the on my VM, so that is something to watch out for.
 
+[Wazuh DashBoard Setup]([https://documentation.wazuh.com/current/installation-guide/wazuh-dashboard/index.html)](https://documentation.wazuh.com/current/installation-guide/wazuh-dashboard/step-by-step.html)
+
+From a browser on another computer going to the IP address at a specified port (which was setup during configuration) will bring you to the login page.
+
+<img width="1278" height="750" alt="Wazuh Login Page" src="https://github.com/user-attachments/assets/e58efee8-d0c8-4e19-a46d-a6bf30ba4095" />
 
